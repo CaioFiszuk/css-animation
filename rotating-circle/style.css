@@ -1,0 +1,32 @@
+.element {
+  background-color: #0074d9;
+  height: 200px;
+  width: 200px;
+  color: white;
+  border-radius: 180px;
+  display: flex;
+  justify-content: center;
+  animation: rotating 0.5s linear infinite;
+}
+ /* 
+   5s - slow
+   0.5s - fast
+ */
+
+body, html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(360deg)
+    }
+}
