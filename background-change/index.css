@@ -1,0 +1,25 @@
+body {
+  animation: background-change 2s linear infinite alternate;
+}
+
+@keyframes background-change {
+    0% {
+        background-color: navy;
+    }
+
+    25% {
+        background-color: rgb(3, 3, 174);
+    }
+
+    50% {
+        background-color: rgb(35, 35, 199);
+    }
+
+    75% {
+        background-color: rgb(92, 92, 201);
+    }
+
+    100% {
+        background-color: rgb(143, 143, 189);
+    }
+}
