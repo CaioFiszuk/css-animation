@@ -1,5 +1,5 @@
 body {
-  animation: background-change 2s linear infinite alternate;
+  animation: background-change 6s linear infinite alternate;
 }
 
 @keyframes background-change {
