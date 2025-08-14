@@ -1,0 +1,41 @@
+.element {
+  background-color: #0074d9;
+  height: 200px;
+  width: 200px;
+  color: white;
+  animation: pendulum 2s linear infinite;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+@keyframes pendulum {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(500px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(-500px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
